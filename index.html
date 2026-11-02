@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111311">
+  <meta name="description" content="Четыре игровых мира в одном месте. Выбери обложку и начинай играть.">
+  <title>PLAYSPACE — выбери свой мир</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <div class="brand" aria-label="PlaySpace">
+        <svg class="brand-icon" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 3h11v11H3zm15 0h11v11H18zM3 18h11v11H3zm15 0h11v11H18z" fill="currentColor"/></svg>
+        PLAY<span>SPACE</span><span class="brand-dot">®</span>
+      </div>
+      <span class="header-note"><span class="status-dot"></span> ТВОЯ ТОЧКА ВХОДА</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-cross">✳</span> НЕ ПРОСТО ССЫЛКИ. ЦЕЛЫЕ МИРЫ.</p>
+          <h1 id="hero-title">Выбирай мир.<br><span>И погнали.</span><svg class="hero-arrow" viewBox="0 0 80 80" aria-hidden="true"><path d="M14 66 66 14M14 14h52v52"/></svg></h1>
+          <p class="hero-description">Четыре проекта, четыре настроения.<br class="mobile-break"> Нажми на обложку — и ты в игре.</p>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><path d="m50 3 8 28 25-16-16 25 30 10-30 10 16 25-25-16-8 28-8-28-25 16 16-25L3 50l30-10-16-25 25 16Z"/></svg>
+          <span>МЕНЬШЕ СЛОВ<br>БОЛЬШЕ ИГРЫ</span>
+        </div>
+      </section>
+
+      <section class="collection" aria-labelledby="collection-title">
+        <div class="section-heading">
+          <h2 id="collection-title">Твоя следующая игра <span class="count">04</span></h2>
+          <span class="section-hint">ВЫБЕРИ ОБЛОЖКУ <span aria-hidden="true">↙</span></span>
+        </div>
+
+        <div class="game-grid">
+          <a class="game-card game-card--purple" href="https://matttttttvei.github.io/Site/" aria-label="Играть в Симулятор блатных номеров — Optimized">
+            <div class="game-art">
+              <img src="assets/site.jpg" alt="Обложка симулятора блатных номеров Optimized" width="768" height="1376" fetchpriority="high">
+              <span class="card-number" aria-hidden="true">01</span>
+              <span class="game-tag">СИМУЛЯТОР</span>
+              <span class="play-overlay" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span>
+            </div>
+            <div class="game-info"><div><h3>Блатные номера</h3><p>Версия Optimized</p></div><span class="open-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="game-card game-card--blue" href="https://matttttttvei.github.io/rus-numbers-auto-clicker/" aria-label="Играть в Rus Numbers — Автокликер">
+            <div class="game-art">
+              <img src="assets/rus-numbers.jpg" alt="Обложка Rus Numbers: автомобиль и сейф с номерами" width="768" height="1376">
+              <span class="card-number" aria-hidden="true">02</span>
+              <span class="game-tag">КЛИКЕР</span>
+              <span class="play-overlay" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span>
+            </div>
+            <div class="game-info"><div><h3>Rus Numbers</h3><p>Автокликер номеров</p></div><span class="open-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="game-card game-card--cyan" href="https://matttttttvei.github.io/AIcraft/" aria-label="Играть в AIcraft">
+            <div class="game-art">
+              <img src="assets/aicraft.jpg" alt="Обложка AIcraft: мир крафта, роботов и технологий" width="768" height="1376">
+              <span class="card-number" aria-hidden="true">03</span>
+              <span class="game-tag">КРАФТ · ТЕХНОЛОГИИ</span>
+              <span class="play-overlay" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span>
+            </div>
+            <div class="game-info"><div><h3>AIcraft</h3><p>Новое поколение крафта</p></div><span class="open-arrow" aria-hidden="true">↗</span></div>
+          </a>
+
+          <a class="game-card game-card--orange" href="https://matttttttvei.github.io/Mesa-fight/" aria-label="Играть в Mesa Fight — Крысиный отстрел">
+            <div class="game-art game-art--wide">
+              <div class="art-backdrop" aria-hidden="true"></div>
+              <img src="assets/mesa.jpg" alt="Обложка Black Mesa: крысиный отстрел, The Rat Invasion" width="1376" height="768">
+              <span class="mesa-caption" aria-hidden="true">THE RAT<br><strong>INVASION</strong></span>
+              <span class="card-number" aria-hidden="true">04</span>
+              <span class="game-tag">ЭКШЕН</span>
+              <span class="play-overlay" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></svg></span>
+            </div>
+            <div class="game-info"><div><h3>Mesa Fight</h3><p>Крысиный отстрел</p></div><span class="open-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <div class="bottom-note"><span class="note-symbol" aria-hidden="true">↳</span> Никаких поисков. Просто нажми и играй.<span class="note-end" aria-hidden="true">HAVE FUN ✳</span></div>
+    </main>
+
+    <footer class="footer"><span>PLAYSPACE <span class="footer-muted">/ ТВОЙ ИГРОВОЙ ХАБ</span></span><span>СОЗДАНО ДЛЯ ХОРОШЕГО ВРЕМЕНИ <span class="footer-star" aria-hidden="true">✳</span></span></footer>
+  </div>
+</body>
+</html>
